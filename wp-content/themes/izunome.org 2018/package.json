@@ -1,12 +1,12 @@
 {
-  "name": "izunome-2018",
+  "name": "Izunome.org",
   "version": "1.0.0",
   "author": "W16 Otimização de Performance Web",
   "homepage": "http://www.w16.com.br",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/victornalves/izunome.org.git"
+    "url": "git://github.com/victornalves/izunome.org.git"
   },
   "scripts": {
     "build": "",
@@ -38,6 +38,7 @@
   },
   "dependencies": {
     "autoprefixer": "^6.6.1",
+    "bootstrap": "^4.0.0-beta.2",
     "cssnano": "^3.10.0",
     "font-awesome": "^4.6.3",
     "grunt-autoprefixer": "^3.0.4",
@@ -51,8 +52,10 @@
     "grunt-sass": "^2.0.0",
     "grunt-sync": "^0.6.2",
     "gruntfile-gtx": "^0.3.0",
-    "jquery": "1.12.4 - 3",
-    "normalize.css": "^5.0.0",
-    "pixrem": "^3.0.2"
+    "jquery": "^3.2.1",
+    "normalize.css": "^7.0.0",
+    "owl.carousel": "^2.2.0",
+    "pixrem": "^3.0.2",
+    "popper.js": "^1.8.2"
   }
 }

@@ -1,9 +1,9 @@
 module.exports = {
     "sass": {
         "files": [
-            "src/scss/**/*.scss",
-            "src/css/*.css",
-            "src/css/**/*.css"
+            "src/scss/**/*.scss"
+            // "src/css/*.css",
+            // "src/css/**/*.css"
         ],
         "tasks": [
             "sass:compile",
@@ -22,14 +22,14 @@ module.exports = {
     "dev": {
         "files": [
             "src/scss/**/*.scss",
-            "src/js/**/*.js",
-            "assets/img/**/*.{png,jpg,jpeg,gif}"
+            "src/js/**/*.js"
+            // "assets/img/**/*.{png,jpg,jpeg,gif}"
         ],
         "tasks": [
             "sass:compile",
             "cssmin:dev",
-            "uglify:dev",
-            "sync:images"
+            "uglify:dev"
+            // "sync:images"
         ]
     },
     "options": {

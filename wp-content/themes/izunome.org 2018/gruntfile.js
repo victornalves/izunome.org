@@ -11,12 +11,13 @@ module.exports = function(grunt) {
 	gtx.alias('dev', [
 		'sass:compile',
 		'cssmin:dev',
-		'postcss:ie',
-		'uglify:dev',
+		// 'postcss:ie',
+		// 'uglify:dev',
 		'sync:fonts',
-		"sync:images",
-		'sync:vendorcss',
-		'sync:vendorjs',
+		'sync:images',
+		// 'sync:vendorcss',
+		// 'sync:vendorjs',
+		'sync:node_modules',
 		'browserSync:dev',
 		'concurrent'
 	]);
@@ -47,7 +48,7 @@ module.exports = function(grunt) {
 	gtx.alias('prerelease', ['bump-only:prerelease', 'release']);
 
 	gtx.alias('default', [function(){
-		grunt.log.ok('Grunt Boilerplate\n');
+		grunt.log.ok('Grunt vente\n');
 		grunt.log.subhead('Possíveis comandos: \n');
 		grunt.log.writeln('- grunt dev');
 		grunt.log.writeln('- grunt build');
