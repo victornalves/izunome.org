@@ -14,8 +14,8 @@ module.exports = {
         },
         options: {
             watchTask: true,
-            proxy: "vente.localhost.dev",
-            logPrefix: 'BrowserSync vente',
+            proxy: "izunome.localhost.dev",
+            logPrefix: 'BrowserSync Izunome',
             open: false,
             reloadOnRestart: true,
             reloadDelay: 0
